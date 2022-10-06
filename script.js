@@ -51,7 +51,7 @@ const computeFloor2b = input => {
     // })
     //acc is equal to the floor
     const floor = inputArr.reduce((acc, curr) => {
-        acc = acc + curr
+        acc += curr
         return acc
     }, 0)
     console.timeEnd('computeFloor2b')
